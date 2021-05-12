@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding-top: 550px;
+}
+
+.profilepic {
+    width: 180px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 4px;
+    padding: 5px;
+    height: 225px;
+    vertical-align: middle;
+
+}
+
+#welcome {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    height: 500px;
+    display: table;
+    background: linear-gradient(to bottom, #660033 0%, #ff9999 100%);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: floralwhite;
+    overflow: hidden;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 18px;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 150px;
+    margin: 8px auto;
+}
+
+#bio{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+p{
+    max-width: 450px;
+    margin: 25px;
+    font-size: 17px;
+    line-height: 1.6;
+    font-family: serif;
+}
+
+.menu{
+    list-style: none;
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    z-index: 10;
+    cursor: cell;
+}
+
+.links{
+    float: left;
+    color: antiquewhite;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.links:hover{background-color: burlywood;
+color: black;
+font-size: 25px;
+border-radius: 15px;}
