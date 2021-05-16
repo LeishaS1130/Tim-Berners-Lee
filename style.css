@@ -49,18 +49,18 @@ body {
     margin: 8px auto;
 }
 
-#bio{
+#bio {
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 40px;
     line-height: 1.2;
     font-family: cursive;
     font-weight: 300;
 }
 
-p{
+p {
     max-width: 450px;
     margin: 25px;
     font-size: 17px;
@@ -68,7 +68,7 @@ p{
     font-family: serif;
 }
 
-.menu{
+.menu {
     list-style: none;
     font-family: "Cinzel Decorative", cursive;
     font-weight: 400;
@@ -79,7 +79,7 @@ p{
     cursor: cell;
 }
 
-.links{
+.links {
     float: left;
     color: antiquewhite;
     padding-top: 5px;
@@ -89,7 +89,33 @@ p{
     font-size: 20px;
 }
 
-.links:hover{background-color: burlywood;
-color: black;
-font-size: 25px;
-border-radius: 15px;}
+.links:hover {
+    background-color: burlywood;
+    color: black;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: underline;
+}
+
+
+.article:hover {
+    color: fuchsia;
+}
